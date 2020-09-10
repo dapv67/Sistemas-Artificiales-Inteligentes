@@ -8,9 +8,6 @@ import jade.core.behaviours.Behaviour;
 public class Comportamiento extends Behaviour{
     private int cont;
     
-    /*public Comportamiento(String nombre){
-        this.name = name;
-    }*/
     public void action(){       
         System.out.println(cont);
         cont ++;
